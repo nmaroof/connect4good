@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit a Guest Post</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Connect4Good</a></h1>
+    <nav>
+      <a href="/">Home</a> |
+      <a href="/about/">About</a> |
+      <a href="/blog/">Blog</a> |
+      <a href="/submit/">Submit a Blog</a>
+    </nav>
+  </header>
+  <main>
+    
+<h2>Submit a Guest Blog Post</h2>
+<p>We love collaborating! Fill out the form below to submit your post idea.</p>
+
+<form action="https://formspree.io/f/xovegdrk" method="POST">
+  <label>Your Name<br>
+    <input type="text" name="name" required>
+  </label><br><br>
+
+  <label>Your Email<br>
+    <input type="email" name="_replyto" required>
+  </label><br><br>
+
+  <label>Post Title<br>
+    <input type="text" name="title" required>
+  </label><br><br>
+
+  <label>Your Blog Post (Markdown)<br>
+    <textarea name="content" rows="10" required></textarea>
+  </label><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+  </main>
+  <footer>
+    <p>&copy; 2025 Connect4Good</p>
+  </footer>
+</body>
+</html>
