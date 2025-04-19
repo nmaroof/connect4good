@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Personal branding site with guest blogging using Eleventy.",
   "scripts": {
-    "dev": "eleventy --serve"
-  },
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },  
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   }

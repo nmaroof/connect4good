@@ -1,8 +1,10 @@
 module.exports = function (eleventyConfig) {
   return {
+    pathPrefix: "/connect4good", 
     dir: {
       input: ".",
-      output: "docs"
+      output: "docs",
+      includes: "_includes"
     }
   };
 };
