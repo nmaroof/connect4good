@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | url }}">Home</a> |
+    <a href="{{ '/blog/' | url }}">Blog</a> |
+    <a href="{{ '/submit/' | url }}">Submit a Blog</a>
+  </nav>
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>
