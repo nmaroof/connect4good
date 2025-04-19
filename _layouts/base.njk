@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Connect4Good</a></h1>
+    <nav>
+      <a href="/">Home</a> |
+      <a href="/about/">About</a> |
+      <a href="/blog/">Blog</a> |
+      <a href="/submit/">Submit a Blog</a>
+    </nav>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer>
+    <p>&copy; 2025 Connect4Good</p>
+  </footer>
+</body>
+</html>
