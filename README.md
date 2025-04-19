@@ -30,5 +30,5 @@ author: Your Name
 layout: base.njk
 ---
 ```
-
-Happy writing!
+Regards, 
+Happy writing! 
