@@ -1,6 +1,6 @@
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
   return {
-    //pathPrefix: "/connect4good",
+    pathPrefix: "/connect4good",
     dir: {
       input: ".",
       output: "docs",

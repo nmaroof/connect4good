@@ -1,8 +1,7 @@
 ---
 layout: base.njk
-title: Post 1
+title: First Blog Post
+permalink: /blog/post-1/
 ---
 
-# This is the first blog post
-
-Welcome to the Connect4Good blog!
+This is your first blog post!
